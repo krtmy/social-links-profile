@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+      background-color: #141414;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: white;
+    }
+    .card{
+      background-color: #1f1f1f;
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+      width: 380px;
+    }
+    .avatar{
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      margin-bottom: 24px;
+      transition: 0.3s ease;
+    }
+    h1{
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .location{
+      color: rgb(227, 227, 32);
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+    .bio{
+      font-size: 14px;
+      color: #ffffff;
+      opacity: 0.7;
+      margin-bottom: 24px;
+    }
+    .links{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .links a{
+      background-color: #333333;
+      color: rgb(255, 43, 43);
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    .links a:hover {
+      background-color: rgb(230, 230, 152);
+      color: #141414;
+    }
+    
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="avater-img" class="avatar">
+      <h1>Jessica Randall</h1>
+
+      <p class="location">London, United Kingdom</p>
+      <p class="bio">Front-end developer</p>
+
+      <div class="links">
+        <a href="#">GitHub</a>
+        <a href="#">Front-end Master</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
